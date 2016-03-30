@@ -1,0 +1,510 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		62539E411CAB79AF00BFB47F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62539E401CAB79AF00BFB47F /* AppDelegate.swift */; };
+		62539E431CAB79AF00BFB47F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62539E421CAB79AF00BFB47F /* ViewController.swift */; };
+		62539E461CAB79AF00BFB47F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 62539E441CAB79AF00BFB47F /* Main.storyboard */; };
+		62539E481CAB79AF00BFB47F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 62539E471CAB79AF00BFB47F /* Assets.xcassets */; };
+		62539E4B1CAB79AF00BFB47F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 62539E491CAB79AF00BFB47F /* LaunchScreen.storyboard */; };
+		62539E561CAB79AF00BFB47F /* TextFieldAlertTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62539E551CAB79AF00BFB47F /* TextFieldAlertTests.swift */; };
+		62539E611CAB79AF00BFB47F /* TextFieldAlertUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62539E601CAB79AF00BFB47F /* TextFieldAlertUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		62539E521CAB79AF00BFB47F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 62539E351CAB79AF00BFB47F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 62539E3C1CAB79AF00BFB47F;
+			remoteInfo = TextFieldAlert;
+		};
+		62539E5D1CAB79AF00BFB47F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 62539E351CAB79AF00BFB47F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 62539E3C1CAB79AF00BFB47F;
+			remoteInfo = TextFieldAlert;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		62539E3D1CAB79AF00BFB47F /* TextFieldAlert.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TextFieldAlert.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		62539E401CAB79AF00BFB47F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		62539E421CAB79AF00BFB47F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		62539E451CAB79AF00BFB47F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		62539E471CAB79AF00BFB47F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		62539E4A1CAB79AF00BFB47F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		62539E4C1CAB79AF00BFB47F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		62539E511CAB79AF00BFB47F /* TextFieldAlertTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TextFieldAlertTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		62539E551CAB79AF00BFB47F /* TextFieldAlertTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldAlertTests.swift; sourceTree = "<group>"; };
+		62539E571CAB79AF00BFB47F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		62539E5C1CAB79AF00BFB47F /* TextFieldAlertUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TextFieldAlertUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		62539E601CAB79AF00BFB47F /* TextFieldAlertUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldAlertUITests.swift; sourceTree = "<group>"; };
+		62539E621CAB79AF00BFB47F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		62539E3A1CAB79AF00BFB47F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		62539E4E1CAB79AF00BFB47F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		62539E591CAB79AF00BFB47F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		62539E341CAB79AF00BFB47F = {
+			isa = PBXGroup;
+			children = (
+				62539E3F1CAB79AF00BFB47F /* TextFieldAlert */,
+				62539E541CAB79AF00BFB47F /* TextFieldAlertTests */,
+				62539E5F1CAB79AF00BFB47F /* TextFieldAlertUITests */,
+				62539E3E1CAB79AF00BFB47F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		62539E3E1CAB79AF00BFB47F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				62539E3D1CAB79AF00BFB47F /* TextFieldAlert.app */,
+				62539E511CAB79AF00BFB47F /* TextFieldAlertTests.xctest */,
+				62539E5C1CAB79AF00BFB47F /* TextFieldAlertUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		62539E3F1CAB79AF00BFB47F /* TextFieldAlert */ = {
+			isa = PBXGroup;
+			children = (
+				62539E401CAB79AF00BFB47F /* AppDelegate.swift */,
+				62539E421CAB79AF00BFB47F /* ViewController.swift */,
+				62539E441CAB79AF00BFB47F /* Main.storyboard */,
+				62539E471CAB79AF00BFB47F /* Assets.xcassets */,
+				62539E491CAB79AF00BFB47F /* LaunchScreen.storyboard */,
+				62539E4C1CAB79AF00BFB47F /* Info.plist */,
+			);
+			path = TextFieldAlert;
+			sourceTree = "<group>";
+		};
+		62539E541CAB79AF00BFB47F /* TextFieldAlertTests */ = {
+			isa = PBXGroup;
+			children = (
+				62539E551CAB79AF00BFB47F /* TextFieldAlertTests.swift */,
+				62539E571CAB79AF00BFB47F /* Info.plist */,
+			);
+			path = TextFieldAlertTests;
+			sourceTree = "<group>";
+		};
+		62539E5F1CAB79AF00BFB47F /* TextFieldAlertUITests */ = {
+			isa = PBXGroup;
+			children = (
+				62539E601CAB79AF00BFB47F /* TextFieldAlertUITests.swift */,
+				62539E621CAB79AF00BFB47F /* Info.plist */,
+			);
+			path = TextFieldAlertUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		62539E3C1CAB79AF00BFB47F /* TextFieldAlert */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 62539E651CAB79AF00BFB47F /* Build configuration list for PBXNativeTarget "TextFieldAlert" */;
+			buildPhases = (
+				62539E391CAB79AF00BFB47F /* Sources */,
+				62539E3A1CAB79AF00BFB47F /* Frameworks */,
+				62539E3B1CAB79AF00BFB47F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TextFieldAlert;
+			productName = TextFieldAlert;
+			productReference = 62539E3D1CAB79AF00BFB47F /* TextFieldAlert.app */;
+			productType = "com.apple.product-type.application";
+		};
+		62539E501CAB79AF00BFB47F /* TextFieldAlertTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 62539E681CAB79AF00BFB47F /* Build configuration list for PBXNativeTarget "TextFieldAlertTests" */;
+			buildPhases = (
+				62539E4D1CAB79AF00BFB47F /* Sources */,
+				62539E4E1CAB79AF00BFB47F /* Frameworks */,
+				62539E4F1CAB79AF00BFB47F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				62539E531CAB79AF00BFB47F /* PBXTargetDependency */,
+			);
+			name = TextFieldAlertTests;
+			productName = TextFieldAlertTests;
+			productReference = 62539E511CAB79AF00BFB47F /* TextFieldAlertTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		62539E5B1CAB79AF00BFB47F /* TextFieldAlertUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 62539E6B1CAB79AF00BFB47F /* Build configuration list for PBXNativeTarget "TextFieldAlertUITests" */;
+			buildPhases = (
+				62539E581CAB79AF00BFB47F /* Sources */,
+				62539E591CAB79AF00BFB47F /* Frameworks */,
+				62539E5A1CAB79AF00BFB47F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				62539E5E1CAB79AF00BFB47F /* PBXTargetDependency */,
+			);
+			name = TextFieldAlertUITests;
+			productName = TextFieldAlertUITests;
+			productReference = 62539E5C1CAB79AF00BFB47F /* TextFieldAlertUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		62539E351CAB79AF00BFB47F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "李坚武";
+				TargetAttributes = {
+					62539E3C1CAB79AF00BFB47F = {
+						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = SB4SFE24Z3;
+					};
+					62539E501CAB79AF00BFB47F = {
+						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = SB4SFE24Z3;
+						TestTargetID = 62539E3C1CAB79AF00BFB47F;
+					};
+					62539E5B1CAB79AF00BFB47F = {
+						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = SB4SFE24Z3;
+						TestTargetID = 62539E3C1CAB79AF00BFB47F;
+					};
+				};
+			};
+			buildConfigurationList = 62539E381CAB79AF00BFB47F /* Build configuration list for PBXProject "TextFieldAlert" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 62539E341CAB79AF00BFB47F;
+			productRefGroup = 62539E3E1CAB79AF00BFB47F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				62539E3C1CAB79AF00BFB47F /* TextFieldAlert */,
+				62539E501CAB79AF00BFB47F /* TextFieldAlertTests */,
+				62539E5B1CAB79AF00BFB47F /* TextFieldAlertUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		62539E3B1CAB79AF00BFB47F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				62539E4B1CAB79AF00BFB47F /* LaunchScreen.storyboard in Resources */,
+				62539E481CAB79AF00BFB47F /* Assets.xcassets in Resources */,
+				62539E461CAB79AF00BFB47F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		62539E4F1CAB79AF00BFB47F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		62539E5A1CAB79AF00BFB47F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		62539E391CAB79AF00BFB47F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				62539E431CAB79AF00BFB47F /* ViewController.swift in Sources */,
+				62539E411CAB79AF00BFB47F /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		62539E4D1CAB79AF00BFB47F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				62539E561CAB79AF00BFB47F /* TextFieldAlertTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		62539E581CAB79AF00BFB47F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				62539E611CAB79AF00BFB47F /* TextFieldAlertUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		62539E531CAB79AF00BFB47F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 62539E3C1CAB79AF00BFB47F /* TextFieldAlert */;
+			targetProxy = 62539E521CAB79AF00BFB47F /* PBXContainerItemProxy */;
+		};
+		62539E5E1CAB79AF00BFB47F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 62539E3C1CAB79AF00BFB47F /* TextFieldAlert */;
+			targetProxy = 62539E5D1CAB79AF00BFB47F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		62539E441CAB79AF00BFB47F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				62539E451CAB79AF00BFB47F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		62539E491CAB79AF00BFB47F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				62539E4A1CAB79AF00BFB47F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		62539E631CAB79AF00BFB47F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		62539E641CAB79AF00BFB47F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		62539E661CAB79AF00BFB47F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TextFieldAlert/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.gdql.TextFieldAlert;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		62539E671CAB79AF00BFB47F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TextFieldAlert/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.gdql.TextFieldAlert;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		62539E691CAB79AF00BFB47F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = TextFieldAlertTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.gdql.TextFieldAlertTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TextFieldAlert.app/TextFieldAlert";
+			};
+			name = Debug;
+		};
+		62539E6A1CAB79AF00BFB47F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = TextFieldAlertTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.gdql.TextFieldAlertTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TextFieldAlert.app/TextFieldAlert";
+			};
+			name = Release;
+		};
+		62539E6C1CAB79AF00BFB47F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = TextFieldAlertUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.gdql.TextFieldAlertUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = TextFieldAlert;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		62539E6D1CAB79AF00BFB47F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = TextFieldAlertUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.gdql.TextFieldAlertUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = TextFieldAlert;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		62539E381CAB79AF00BFB47F /* Build configuration list for PBXProject "TextFieldAlert" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				62539E631CAB79AF00BFB47F /* Debug */,
+				62539E641CAB79AF00BFB47F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		62539E651CAB79AF00BFB47F /* Build configuration list for PBXNativeTarget "TextFieldAlert" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				62539E661CAB79AF00BFB47F /* Debug */,
+				62539E671CAB79AF00BFB47F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		62539E681CAB79AF00BFB47F /* Build configuration list for PBXNativeTarget "TextFieldAlertTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				62539E691CAB79AF00BFB47F /* Debug */,
+				62539E6A1CAB79AF00BFB47F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		62539E6B1CAB79AF00BFB47F /* Build configuration list for PBXNativeTarget "TextFieldAlertUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				62539E6C1CAB79AF00BFB47F /* Debug */,
+				62539E6D1CAB79AF00BFB47F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 62539E351CAB79AF00BFB47F /* Project object */;
+}
